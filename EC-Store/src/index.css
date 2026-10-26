@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+    font-family:"ShahFont";
+src: url("/public/fonts/GalakPro Demo.ttf") format("truetype");
+    font-weight: 200;
+}
+
+
+@font-face {
+    font-family:"font1";
+src: url("/public/fonts/FiraSans-SemiBold.ttf") format("truetype");
+    font-weight: 200;
+}
+
+
+@font-face {
+    font-family:"font2";
+src: url("/public/fonts/FiraSans-Regular.ttf") format("truetype");
+    font-weight: 200;
+}
